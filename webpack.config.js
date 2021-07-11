@@ -112,6 +112,9 @@ module.exports = {
   resolve: {
     modules: [NODE_MODULES_PATH, ...ADDITIONAL_MODULE_PATHS],
     extensions: MODULE_FILE_EXTENSIONS,
+    alias: {
+      "cross-fetch": path.join(SOURCE_PATH, "lib/cross-fetch"),
+    },
   },
 
   module: {
