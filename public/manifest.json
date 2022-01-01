@@ -15,7 +15,7 @@
   "homepage_url": "{{website}}",
   "short_name": "Vigvam",
 
-  "permissions": ["tabs", "storage", "clipboardWrite", "activeTab"],
+  "permissions": [],
   "content_security_policy": "script-src 'self'; object-src 'self'",
 
   "author": "{{website}}",
@@ -50,18 +50,7 @@
     "persistent": true
   },
 
-  "content_scripts": [
-    {
-      "matches": ["file://*/*", "http://*/*", "https://*/*"],
-      "js": ["scripts/content.js"],
-      "run_at": "document_start",
-      "all_frames": true
-    },
-    {
-      "matches": ["{{website}}/*"],
-      "js": ["scripts/version.js"]
-    }
-  ],
+  "content_scripts": [],
 
-  "web_accessible_resources": ["scripts/inpage.js"]
+  "web_accessible_resources": []
 }
