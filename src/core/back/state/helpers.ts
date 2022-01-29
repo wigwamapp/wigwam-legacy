@@ -15,15 +15,6 @@ export async function ensureInited() {
   if (state === WalletStatus.Idle) {
     const vaultExists = await Vault.isExist();
     inited(vaultExists);
-
-    // Auto Unlock
-    const PASSWORD = process.env.VIGVAM_DEV_UNLOCK_PASSWORD;
-
-    if (process.env.NODE_ENV === "development" && PASSWORD) {
-      try {
-        await autoUnlock(PASSWORD);
-      } catch {}
-    }
   }
 }
 
@@ -45,7 +36,7 @@ export async function withVault<T>(factory: (vault: Vault) => T) {
   return factory(vault);
 }
 
-async function autoUnlock(password: string) {
+export async function autoUnlock(password: string) {
   const passwordHash = getPasswordHash(password);
   const vault = await Vault.unlock(passwordHash);
   unlocked(vault);

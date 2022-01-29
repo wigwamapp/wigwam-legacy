@@ -4,6 +4,14 @@ import { getMainURL } from "lib/ext/utils";
 
 import { setupFixtures } from "core/repo";
 import { startServer } from "core/back/server";
+import { autoUnlock } from "core/back/state";
+
+// Auto Unlock
+const PASSWORD = process.env.VIGVAM_DEV_UNLOCK_PASSWORD;
+
+if (process.env.NODE_ENV === "development" && PASSWORD) {
+  autoUnlock(PASSWORD).catch(console.warn);
+}
 
 // Setup fixtures
 setupFixtures();
