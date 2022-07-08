@@ -2,7 +2,7 @@
 
 > STATUS: As of January 1, we have stopped delivering new code to this public repository.
 The purpose of this is to protect Vigvam against scammers and hackers until we can provide security guarantees to our users.
-We're not moving away from the Open Source policy. The wallet code will be publicly available after the release of the Beta version and the public Security Audit.
+We're not moving away from the Open Source policy. The wallet code will be publicly available after the release of the Public Beta version and the Public Security Audit.
 Currently, we're still actively developing the product! Follow our updates on the site or in the media.
 
 ### https://vigvam.app
