@@ -1,15 +1,15 @@
-# Vigvam
+# Wigwam
 
-> STATUS: As of January 1, we have stopped delivering new code to this public repository.
+> STATUS: As of January 1 2022, we have stopped delivering new code to this public repository.
 The purpose of this is to protect Vigvam against scammers and hackers until we can provide security guarantees to our users.
 We're not moving away from the Open Source policy. The wallet code will be publicly available after the release of the Public Beta version and the Public Security Audit.
 Currently, we're still actively developing the product! Follow our updates on the site or in the media.
 
-### https://vigvam.app
+### https://wigwam.app
 
 An app that manages your wallets and crypto keys.<br />Explore DeFi and NFTs.<br />Ethereum, BSC, Polygon, Optimism and others.
 
-[![Vigvam](https://user-images.githubusercontent.com/11996139/178014428-43cb4b5f-cb50-4bea-a226-472dd63bfacf.jpg)](https://vigvam.app/)
+[![Wigwam](https://user-images.githubusercontent.com/11996139/178014428-43cb4b5f-cb50-4bea-a226-472dd63bfacf.jpg)](https://vigvam.app/)
 
 ## Features
 
