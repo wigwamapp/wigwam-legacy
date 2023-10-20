@@ -9,7 +9,7 @@ Currently, we're still actively developing the product! Follow our updates on th
 
 An app that manages your wallets and crypto keys.<br />Explore DeFi and NFTs.<br />Ethereum, BSC, Polygon, Optimism and others.
 
-[![Wigwam](https://user-images.githubusercontent.com/11996139/178014428-43cb4b5f-cb50-4bea-a226-472dd63bfacf.jpg)](https://vigvam.app/)
+[![Wigwam](https://github.com/wigwamapp/wigwam/assets/11996139/3ed8e808-5357-41f7-88f2-91bb655d9f07/)](https://wigwam.app/)
 
 ## Features
 
